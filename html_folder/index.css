@@ -142,6 +142,8 @@ nav {
     --star: #ff7b54;
     --store-color: #fcfbf9;
     --text-store: #868686;
+    --section-bg: #f3f4f7;
+    --footer-text: #a1a1a1;
 }
 
 /* -----------Header ------------*/
@@ -388,6 +390,31 @@ a.active~.line-link {
 
 .border-style {
     border-bottom: 2px solid gray;
+}
+
+/* ------Section 10---- */
+.icone-img {
+    width: 40px;
+    height: 40px;
+}
+
+.icone {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ececec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.section-bg {
+    background-color: var(--section-bg);
+}
+
+.text-footer {
+    color: var(--footer-text);
 }
 
 /* .wrapper-header {
