@@ -18,6 +18,10 @@
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
 
 
     <link rel="stylesheet" href="./index.css">
@@ -95,8 +99,13 @@
 
 
     </header>
+
+
+
+
+
     <!-- ------Section 1 ------ -->
-    <section>
+    <!-- <section>
         <div class="container  position-relative">
             <img class="images img-fluid  rounded-40" src="/images/book-storee-1.png" alt="image1">
             <div class="position-absolute top-27 left-8 ">
@@ -108,8 +117,62 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
+    <section class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <img src="/images/book-store-1.png" class="d-block w-100 rounded-40" alt="...">
+                    <div class="position-absolute top-27 left-8 ">
+                        <h6 class="text-white font-h6">Books that shape <br>minds
+                        </h6>
+                        <p class=" fs-6 fw-6 text-white py-5">Find inspiration One page at time </p>
+                        <button type="button" class="btn btn-light fw-6 ">Shop collection</button>
 
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="/images/book-store-2.png" class="d-block w-100 rounded-40" alt="...">
+                    <div class="position-absolute top-27 left-8 ">
+                        <h6 class="text-white font-h6">Books that shape <br>minds
+                        </h6>
+                        <p class=" fs-6 fw-6 text-white py-5">Find inspiration One page at time </p>
+                        <button type="button" class="btn btn-light fw-6 ">Shop collection</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item position-relative">
+                    <img src="/images/book-store-3.png" class="d-block w-100 rounded-40" alt="...">
+                    <div class="position-absolute top-27 left-8 ">
+                        <h6 class="text-white font-h6">Books that shape <br>minds
+                        </h6>
+                        <p class=" fs-6 fw-6 text-white py-5">Find inspiration One page at time </p>
+                        <button type="button" class="btn btn-light fw-6 ">Shop collection</button>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
     <!-- ------Section 2 ------ -->
     <section>
         <div class="container">
@@ -233,7 +296,7 @@
                     </div>
                 </div>
                 <div class=" col-xl-6 col-lg-6  col-md-6 col-sm-6 col-xs-6 overflow-hidden">
-                    <img class="images transition-img" src="/images/book-store.png" alt="image">
+                    <img class=" transition-img" src="/images/book-store.png" alt="image">
                 </div>
             </div>
 
@@ -841,8 +904,8 @@
             <nav class="  navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container ">
                     <div class="collapse navbar-collapse justify-content-between " id="navbarSupportedContent">
-                        <ul class="navbar-nav   mb-2 mb-lg-0  nav nav-tabs d-flex text-center classs ">
-                            <li class="nav-item  me-auto">
+                        <ul class="navbar-nav w-100  mb-2 mb-lg-0  nav nav-tabs d-flex    classs ">
+                            <li class="nav-item ">
                                 <a class="nav-link  text-dark text-center list-unstyled border-style active "
                                     data-bs-toggle="tab" role="tab" data-bs-target="#hongkong"
                                     aria-selected="true">Hongkong</a>
@@ -878,7 +941,7 @@
                                 </div>
                             </div>
                             <div class=" col-xl-6 col-lg-6  col-md-6 col-sm-6 col-xs-6 overflow-hidden">
-                                <img class="images " src="/images/ourstore7.jpg" alt="image">
+                                <img class=" " src="/images/ourstore7.jpg" alt="image">
                             </div>
                         </div>
                     </div>
@@ -894,7 +957,7 @@
                                 </div>
                             </div>
                             <div class=" col-xl-6 col-lg-6  col-md-6 col-sm-6 col-xs-6 overflow-hidden">
-                                <img class="images " src="/images/ourstore8.jpg" alt="image">
+                                <img class="" src="/images/ourstore8.jpg" alt="image">
                             </div>
                         </div>
                     </div>
@@ -910,7 +973,7 @@
                                 </div>
                             </div>
                             <div class=" col-xl-6 col-lg-6  col-md-6 col-sm-6 col-xs-6 overflow-hidden">
-                                <img class="images " src="/images/ourstore9.jpg" alt="image">
+                                <img class="" src="/images/ourstore9.jpg" alt="image">
                             </div>
                         </div>
                     </div>
@@ -1007,13 +1070,13 @@
 
     <footer class="bg-dark">
         <div class="container">
-            <div class="row">
-                <div class="d-flex gap-5">
-                    <div>
+            <div class="row border-white ">
+                <div class="d-flex gap-space pt-5">
+                    <div class="width-div">
                         <img src="/images/logo-white.svg" alt="logo">
-                        <p class="text-footer pt-4">Address: 1234 Fashion Street, Suite 567,<br>New York, NY
+                        <p class="text-secondary pt-4">Address: 1234 Fashion Street, Suite 567,<br>New York, NY
                             10001<br>Email:info@fashionshop.com<br>Phone:(212) 555-1234</p>
-                        <a href="#" class="text-footer  text-decoration-underline pb-3">Get direction</a>
+                        <a href="#" class="text-secondary  text-decoration-underline pb-3">Get direction</a>
                         <div class="d-flex gap-4 pt-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
                                 class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -1039,19 +1102,84 @@
 
                         </div>
                     </div>
-                    <div>
+                    <div class="width-div">
                         <h2 class="text-white">Help</h2>
-                        <p class="text-footer">Privacy Policy<br>Returns + Exchanges<br>Shipping<br>Terms &
+                        <p class="text-secondary">Privacy Policy<br>Returns + Exchanges<br>Shipping<br>Terms &
                             Conditions<br>FAQ’s<br>Compare<br>My Wishlist</p>
 
 
 
                     </div>
+                    <div class="width-div">
+                        <h2 class="text-white">About us</h2>
+                        <p class="text-secondary">Our Story<br>Visit Our Store<br>Contact Us<br>About Us</p>
+
+
+
+                    </div>
+                    <div class="width-div">
+                        <h2 class="text-white">Sign Up for Email</h2>
+                        <p class="text-secondary">Sign up to get first dibs on new arrivals, sales,<br>exclusive
+                            content, events and more!</p>
+                        <form class="form" method="post" action="#">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter your email...."
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button"
+                                    id="button-addon2">Subscribe</button>
+                            </div>
+                        </form>
+                        <div>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Small button
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Veprimi</a></li>
+                                    <li><a class="dropdown-item" href="#">Veprimi</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <button class="btn btn-secondary btn-sm" type="button">
+                                    Small split button
+                                </button>
+                                <button type="button"
+                                    class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="visually-hidden">Toggle Dropdown</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    ...
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    </form>
+
 
 
                 </div>
 
+
             </div>
+            <div class="row d-flex ">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                    <p class="text-secondary p-2 fs-5">© 2026 Ecomus Store. All Rights Reserved</p>
+                </div>
+
+                <div class=" col-xl-6 d-flex justify-content-end col-lg-6 col-md-6 col-sm-6 col-12 ">
+                    <img class="px-1 custom-width-images img-fluid " src="/images/visa.png" alt="visa">
+                    <img class="px-1 custom-width-images img-fluid " src="/images/img-1.png" alt="image">
+                    <img class="px-1 custom-width-images img-fluid " src="/images/img-2.png" alt="image">
+                    <img class="px-1 custom-width-images img-fluid " src="/images/img-3.png" alt="image">
+                    <img class="px-1 custom-width-images img-fluid " src="/images/img-4.png" alt="image">
+                </div>
+            </div>
+
+        </div>
 
 
 
@@ -1061,8 +1189,13 @@
 
     </footer>
     <section class="height"></section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 
 </body>
 
